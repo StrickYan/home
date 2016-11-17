@@ -16,6 +16,3 @@
 ## 效果图
 
 ![](https://raw.githubusercontent.com/sk1275330626/homepage/master/example.png)
-
-
-
