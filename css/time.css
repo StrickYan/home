@@ -1,0 +1,86 @@
+﻿body
+{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 500;
+
+    width: 100%;
+
+    color: white;
+}
+a
+{
+    text-decoration: none;
+}
+a,img{border:0}
+#center
+{
+    font-size: 3.1em;
+
+    position: absolute;
+    top: 50%;               /*固定宽高水平垂直居中方法*/
+    left: 50%;
+
+    width: 800px;
+    margin-top: -129px;
+    margin-left: -400px;
+
+    text-align: center;
+
+    border: 0 solid #3ecd3e;
+}
+
+#time
+{
+    font-size: 3.5em;
+}
+#bottom
+{
+    font-weight: 600;
+
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+
+    opacity: .8;
+}
+#bottom:hover
+{
+    opacity: 1;
+}
+#right_bottom
+{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+
+    height: 36px;
+}
+#right_bottom a
+{
+    display: inline-block;
+}
+#right_bottom a
+{
+    -webkit-transition: All .2s ease-in-out;
+       -moz-transition: All .2s ease-in-out;
+         -o-transition: All .2s ease-in-out;
+            transition: All .2s ease-in-out;
+}
+#right_bottom a:hover
+{
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+#right_bottom img
+{
+    width: 36px;
+    height: 36px;
+}
