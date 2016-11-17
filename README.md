@@ -10,7 +10,7 @@
 * img/ 背景图片和一些默认图标
 * js/ 页面脚本
 * example.png 效果图
-* index.php 主页
+* index.html 主页
 * say.json 句子 
 
 ## 效果图
