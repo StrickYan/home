@@ -14,14 +14,14 @@ a
 a,img{border:0}
 #center
 {
-    font-size: 3.1em;
+    font-size: 2.5em;
 
     position: absolute;
     top: 50%;               /*固定宽高水平垂直居中方法*/
     left: 50%;
 
     width: 800px;
-    margin-top: -129px;
+    margin-top: -103px;
     margin-left: -400px;
 
     text-align: center;

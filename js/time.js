@@ -45,7 +45,7 @@ function change(){
 	//temp[0].style.background="#FCFCFC url(./moments/img/background/"+flag+".jpg) no-repeat fixed";
 	temp[0].style.background="#FCFCFC url(./img/background/5.jpg) no-repeat fixed";//这段代码仅作演示用，若想实现每天更换背景图请使用上一段代码
 
-	temp[0].style.backgroundSize="100% 100%";
+	temp[0].style.backgroundSize="cover";
 }
 
 //获取say
