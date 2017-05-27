@@ -30,7 +30,7 @@ function getTime() {
 		html += "Good afternoon, Strick.";	
 	}
 	else{
-		html += "Good evening, Strick.";		
+		html += "Good evening, Dear Strick.";
 	}
 	center.innerHTML = html;
 	setTimeout("getTime()",1000*10);//10秒钟调用一次
