@@ -24,9 +24,9 @@ function getTime() {
     var html = "";
     html += "<div id='time'>" + hour + ":" + minute + "</div>";
     if (hour >= hour1 && hour < hour2) {
-        html += "Good morning, Strick.";
+        html += "Good morning, Dear Strick.";
     } else if ((hour >= hour2) && (hour < hour3)) {
-        html += "Good afternoon, Strick.";
+        html += "Good afternoon, Dear Strick.";
     } else {
         html += "Good evening, Dear Strick.";
     }
