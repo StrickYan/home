@@ -13,6 +13,7 @@ function addLoadEvent(func) {
         }
     }
 }
+
 //获取当前时间
 function getTime() {
     var myDate = new Date();
@@ -33,15 +34,17 @@ function getTime() {
     center.innerHTML = html;
     setTimeout("getTime()", 1000 * 10); //10秒钟调用一次
 }
+
 // 每天换背景图片
 function change() {
     var myDate = new Date();
     flag = myDate.getDate(); //获取当前日(1-31)
     var temp = document.getElementsByTagName("body");
-    //temp[0].style.background="#FCFCFC url(./img/background/"+flag+".jpg) no-repeat fixed";
-    temp[0].style.background = "#FCFCFC url(./img/background/5.jpg) no-repeat fixed"; //这段代码仅作演示用，若想实现每天更换背景图请使用上一段代码
+    temp[0].style.background = "#FCFCFC url(./img/background/"+flag+".jpg) no-repeat fixed";
+    temp[0].style.background = "#FCFCFC url(./img/background/5.jpg) no-repeat fixed"; // 这段代码仅作演示用，若想实现每天更换背景图请使用上一段代码
     temp[0].style.backgroundSize = "cover";
 }
+
 //获取say
 function getSay() {
     var myDate = new Date();
